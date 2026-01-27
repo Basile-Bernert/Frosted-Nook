@@ -137,31 +137,31 @@ function changerDeLangue(){
 // console.log(tableau[1][3][1])
 
 
-let frigo = [
-    ["Pomme", 1],
-    ["Poire", 5],
-    ["Banane", 6],
-    ["Tomate", 1],
-    ["Carotte", 9],
-    ["Salade", 9],
-    ["Pomme de terre", 2],
-    ["Patate douce", 2],
-    ["Fraise", 1]
-]
+//let frigo = [
+//    ["Pomme", 1],
+//    ["Poire", 5],
+//    ["Banane", 6],
+//    ["Tomate", 1],
+//    ["Carotte", 9],
+//    ["Salade", 9],
+//    ["Pomme de terre", 2],
+//    ["Patate douce", 2],
+//    ["Fraise", 1]
+//]
 
 // for(let i = frigo.length - 1; i >= 0 ; i = i - 1){
 //     console.log(afficherUnElementDuFrigo(i))
 // }
 
-function afficherUnElementDuFrigo(element){
-    let yauns = "s"
-    if(frigo[element][1] == 1){
-        yauns = ""
-    }else{
-        yauns = "s"
-    }
-    return "j'ai " + frigo[element][1] + " "  + frigo[element][0] + yauns
-}
+//function afficherUnElementDuFrigo(element){
+//    let yauns = "s"
+//    if(frigo[element][1] == 1){
+//        yauns = ""
+//    }else{
+//        yauns = "s"
+//    }
+//    return "j'ai " + frigo[element][1] + " "  + frigo[element][0] + yauns
+//}
 
 
 // "langue_sélectionnée=Allemand; thème=sombre"
